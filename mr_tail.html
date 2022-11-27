@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/main.min.css" />
+        <title>Mr Tail</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__block container">
+                <div class=".headr__logo">
+                    <img src="/images/logo/logo (2).png" alt="" class="header__logo-img" />
+                </div>
+                <button class="header__open js-open-menu">
+                    <svg aria-label="перемикач мобільного меню" width="40" height="40">
+                        <use href="./images/svg/symbol-defs.svg#icon-icon-menu-open"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="header__mobile-menu js-menu-container">
+                <button class="header__mobile-menu-close js-close-menu">
+                    <svg aria-label="перемикач мобільного меню" width="40" height="40">
+                        <use href="./images/svg/symbol-defs.svg#icon-icon-menu-close"></use>
+                    </svg>
+                </button>
+                <nav class="header__nav">
+                    <lu class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#">Послуги</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">Команда</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">Ітформація</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">Локація</a>
+                        </li>
+                    </lu>
+                </nav>
+                <lu class="header__contact">
+                    <li class="header__contact-tel">
+                        <a href="tel:+380961111111">0633507002</a>
+                    </li>
+                    <li class="header__contact-mail">
+                        <a href="mailto:info@devstudio.com">щосьтам@mail.com</a>
+                    </li>
+                </lu>
+            </div>
+        </header>
+        <script src="./js/mobile-menu.js"></script>
+    </body>
+</html>
+<!-- <nav class="header__nav">
+                    <lu class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#">Послуги</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">Команда</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">Ітформація</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">Локація</a>
+                        </li>
+                    </lu>
+                </nav>
+                <lu class="header__contact">
+                    <li class="header__contact-tel" href="tel:+380961111111">
+                        <a href="#">0633507002</a>
+                    </li>
+                    <li class="header__contact-mail" href="mailto:info@devstudio.com">
+                        <a href="#">щосьтам@mail.com</a>
+                    </li>
+                </lu> -->

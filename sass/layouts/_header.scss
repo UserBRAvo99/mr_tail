@@ -1,0 +1,21 @@
+// .header {
+// }
+.header__block {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo-img {
+    width: 70px;
+    height: 70px;
+}
+.header__open, .header__mobile-menu-close {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
