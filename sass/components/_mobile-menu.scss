@@ -59,9 +59,13 @@
         color: rgb(92, 48, 135);
     }
 }
+
+
+.wraper-contact-and-soc {
+    margin-top: 100px;
+}
 //блок контактів(список)
 .header-mobile-menu-contact-list {
-    padding-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -72,7 +76,7 @@
 }
 //контакти в мобільному меню
 .mobile-menu-contact-tel {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .mobile-menu-contact-tel, .mobile-menu-contact-mail {
     font-size: 16px;
@@ -85,6 +89,7 @@
 }
 //список соц мереж та посилання в мобільному меню
 .header-mobile-menu-soc-list {
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
