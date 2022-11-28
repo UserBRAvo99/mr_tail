@@ -8,10 +8,14 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px rgba(93,48,133,255);
+    margin-bottom: 30px;
 }
 .header-logo-img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    //розмір для лого заголовка Mr Tail
+    // width: 140px;
+    // height: 40px;
 }
 .header-mobile-menu-open, .header-mobile-menu-close {
     border: 0;

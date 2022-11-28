@@ -1,3 +1,5 @@
+//utils
+@import '../sass/utils/hidden';
 //base_styles
 @import '../sass/base_styles/general-styles';
 @import '../sass/base_styles/reset.scss';
@@ -6,3 +8,4 @@
 @import '../sass/components/mobile-menu.scss';
 //layouts
 @import '../sass/layouts/header';
+@import '../sass/layouts/services';

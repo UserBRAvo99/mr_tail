@@ -1,6 +1,9 @@
 // блок мобільного меню
 .header-mobile-menu {
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     top: 0;
     right: 0;
     width: 100vw;
@@ -12,7 +15,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &.is-open {
-        display: block;
+        display: flex;
         transform: translateY(0)
     }
 }
@@ -60,9 +63,12 @@
     }
 }
 
-
+//обгортка для контактів та соц мереж
 .wraper-contact-and-soc {
-    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
 }
 //блок контактів(список)
 .header-mobile-menu-contact-list {
@@ -76,7 +82,7 @@
 }
 //контакти в мобільному меню
 .mobile-menu-contact-tel {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .mobile-menu-contact-tel, .mobile-menu-contact-mail {
     font-size: 16px;
@@ -89,9 +95,18 @@
 }
 //список соц мереж та посилання в мобільному меню
 .header-mobile-menu-soc-list {
-    padding-top: 30px;
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-top: 30px;
+}
+.mobile-menu-soc-item-link {
+    font-size: 16px;
+    font-weight: 300;
+    color: grey;
+    &:hover,
+    &:focus {
+        color: rgb(92, 48, 135);
+    }
 }
 
