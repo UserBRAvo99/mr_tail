@@ -2,12 +2,10 @@ body {
     font-size: 14px;
     font-family: 'Roboto',
         sans-serif;
+    color: var(--primary-text-color-black);
+    background-color: var(--primary-background-color-black);
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: black;
-    // color: var(--second-text-gray);
-
-    // background-color: var(--primary-background-color);
 }
 
 img {
@@ -26,18 +24,18 @@ img {
     list-style-type: none;
 }
 
-@media screen and (min-width: 768px) {
+// @media screen and (min-width: 768px) {
 
-    /* padding-top - висота для фіксованого меню (щоб контент не попав під хедер) */
-    body {
-        padding-top: 80.67px;
-    }
-}
+//     /* padding-top - висота для фіксованого меню (щоб контент не попав під хедер) */
+//     body {
+//         padding-top: 80.67px;
+//     }
+// }
 
-@media screen and (min-width: 1200px) {
+// @media screen and (min-width: 1200px) {
 
-    /* padding-top - висота для фіксованого меню (щоб контент не попав під хедер) */
-    body {
-        padding-top: 80.83px;
-    }
-}
+//     /* padding-top - висота для фіксованого меню (щоб контент не попав під хедер) */
+//     body {
+//         padding-top: 80.83px;
+//     }
+// }

@@ -1,5 +1,5 @@
 
-.header__block {
+.header-block {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -9,11 +9,11 @@
     align-items: center;
     border-bottom: solid 1px rgba(93,48,133,255);
 }
-.header__logo-img {
+.header-logo-img {
     width: 70px;
     height: 70px;
 }
-.header__open, .header__mobile-menu-close {
+.header-mobile-menu-open, .header-mobile-menu-close {
     border: 0;
     background: transparent;
     cursor: pointer;
