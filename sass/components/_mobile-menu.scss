@@ -30,14 +30,14 @@
     }
 }
 
-
+//блок мобільного меню
+.header-mobile-menu
 
 //блок навыгації по сторінці
 .header-mobile-menu-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 50px;
 }
 //список навігації
 .mobile-menu-nav-list {

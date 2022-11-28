@@ -95,7 +95,7 @@ textarea {
   fill: rgb(92, 48, 135);
 }
 
-.header-mobile-menu-nav {
+.header-mobile-menu .header-mobile-menu-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +106,6 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 50px;
 }
 
 .mobile-menu-nav-list {
