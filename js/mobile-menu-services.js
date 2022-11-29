@@ -1,0 +1,32 @@
+(() => {
+    const mobileMenu = document.querySelector('.js-services-container');
+    const openMenuBtn = document.querySelector('.js-open-services');
+    const closeMenuBtn = document.querySelector('.js-close-services');
+    const closeMenuLinkServices = document.querySelector('.js-close-link-services')
+    const closeMenuLinkTeam = document.querySelector('.js-close-link-team')
+
+    const toggleMenu = () => {
+        const isMenuOpen =
+            openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+        openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+        mobileMenu.classList.toggle('is-open');
+
+        const scrollLockMethod = !isMenuOpen
+            ? 'disableBodyScroll'
+            : 'enableBodyScroll';
+        bodyScrollLock[scrollLockMethod](document.body);
+    };
+
+    openMenuBtn.addEventListener('click', toggleMenu);
+    closeMenuBtn.addEventListener('click', toggleMenu);
+    closeMenuLinkServices.addEventListener('click', toggleMenu);
+    closeMenuLinkTeam.addEventListener('click', toggleMenu);
+
+    // Close the mobile menu on wider screens if the device orientation changes
+    window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+        if (!e.matches) return;
+        mobileMenu.classList.remove('is-open');
+        openMenuBtn.setAttribute('aria-expanded', false);
+        bodyScrollLock.enableBodyScroll(document.body);
+    });
+})();

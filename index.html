@@ -109,14 +109,22 @@
         <section class="services container">
             <h2 class="services-title" id="services">Послуги</h2>
             <ul class="services-list list">
-                <li class="services-item">
-                    <img src="./images/logo/logo-dog.png" alt="" class="services-img" />
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium
-                        accusantium corporis veniam! Vitae ducimus sapiente molestias eos quos
-                        officia eius odio tenetur? Nisi magnam quaerat porro repellendus error
-                        laborum.
-                    </p>
+                <li class="services-item-test">
+                    <img
+                        src="./images/services/corgi-gad76081e2_1920.jpg"
+                        alt=""
+                        class="services-img-test"
+                    />
+                    <button class="services-btn-open js-open-services">open</button>
+                    <div class="services-info js-services-container">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium
+                            accusantium corporis veniam! Vitae ducimus sapiente molestias eos quos
+                            officia eius odio tenetur? Nisi magnam quaerat porro repellendus error
+                            laborum.
+                        </p>
+                        <button class="js-close-services">close</button>
+                    </div>
                 </li>
                 <li class="services-item">
                     <img src="./images/logo/logo-dog.png" alt="" class="services-img" />
@@ -220,7 +228,8 @@
                 </li>
             </ul>
         </section>
-        <script src="./js/mobile-menu.js"></script>
+        <script src="./js/mobile-menu.js" type="module"></script>
+        <script src="./js/mobile-menu-services.js" type="module"></script>
     </body>
 </html>
 <!-- <nav class="header__nav">
