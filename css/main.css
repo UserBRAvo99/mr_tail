@@ -274,7 +274,7 @@ textarea {
   display: flex;
   height: 500px;
   width: 100%;
-  background-image: url("../../images/services/test_hero.png");
+  background-image: url("../images/services/test_hero.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
