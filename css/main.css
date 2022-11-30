@@ -20,6 +20,8 @@ body {
   background-color: var(--primary-background-color-black);
   line-height: 1.14;
   letter-spacing: 0.03em;
+  position: relative;
+  padding-top: 500px;
 }
 
 img {
@@ -101,6 +103,7 @@ textarea {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
 }
 .header-mobile-menu.is-open {
   z-index: 100;
@@ -244,8 +247,11 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: solid 1px rgb(93, 48, 133);
   margin-bottom: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .header-logo-img {
@@ -257,6 +263,20 @@ textarea {
   border: 0;
   background: transparent;
   cursor: pointer;
+}
+
+.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  background-image: url(../../images/services/test_hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .services {
