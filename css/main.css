@@ -97,8 +97,8 @@ textarea {
   height: 100vh;
   background-color: white;
   padding: 60px 40px 10px 40px;
-  -webkit-transform: translateY(-101%);
-          transform: translateY(-101%);
+  -webkit-transform: translateY(-150%);
+          transform: translateY(-150%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -274,7 +274,7 @@ textarea {
   display: flex;
   height: 500px;
   width: 100%;
-  background-image: url(../images/services/test_hero.png);
+  background-image: url("../../images/services/test_hero.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
