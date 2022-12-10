@@ -9,3 +9,21 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.hero-link-instagram, .hero-link-facebook {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.hero-link-instagram {
+    bottom: 10px;
+    right: 10px;
+}
+.hero-link-facebook {
+    bottom: 60px;
+    right: 10px;
+}
