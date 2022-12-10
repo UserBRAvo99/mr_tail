@@ -373,7 +373,7 @@ textarea {
   margin-bottom: 20px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  background-image: url(../../images/services/corgi-gad76081e2_1920.jpg);
+  background-image: url(../images/services/corgi-gad76081e2_1920.jpg);
   background-size: cover;
 }
 
@@ -384,9 +384,7 @@ textarea {
 
 .services-info {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -399,16 +397,12 @@ textarea {
   height: 100%;
   background-color: white;
   padding: 60px 40px 10px 40px;
-  -webkit-transition: opacity 1s ease;
-  transition: opacity 1s ease;
-  opacity: 0;
   border-radius: 20px;
 }
 .services-info.is-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  opacity: 1;
 }
 
 .team {
